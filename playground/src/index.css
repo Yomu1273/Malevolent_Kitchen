@@ -1,0 +1,13 @@
+body,html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://th.bing.com/th/id/OIP.2G0vp2g25xFUFVk_tWgbygAAAA?rs=1&pid=ImgDetMain);
+  background-size: cover;
+  margin: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+}

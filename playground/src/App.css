@@ -1,0 +1,107 @@
+.App {
+  background-image: url(https://th.bing.com/th/id/OIP.2G0vp2g25xFUFVk_tWgbygAAAA?rs=1&pid=ImgDetMain);
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#TrimbleLogo {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.NavBar {
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+}
+
+.NavBar li{
+  display: inline;
+  list-style: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.LinkToPage{
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+#BodyBox{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Heading{
+  text-align: center;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Scoreboard{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.PlayArea {
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  border: 10px solid white;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 3px;
+}
+
+.L1Table{
+  border-collapse: collapse;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.L1qCell th{
+  border: 5px solid white;
+  font-size: 100px;
+}
+
+.L1Cell th{
+  border: 5px solid white;
+  font-size: 50px;
+}
+
+.L1Cell th:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+#roller {
+  position: relative;
+  right:-10rem;
+  animation: slide 5s infinite;  
+}
+@keyframes slide {
+  0%{
+    right:-10rem;
+  }
+  25%{
+    right: -35rem;    
+  }
+  50%{
+    right: -10rem;
+  }
+  72.5%{
+    right: -35rem;
+  }
+}
